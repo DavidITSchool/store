@@ -1,7 +1,7 @@
 from Model.client_domain import Client
 
 
-class ClientRepository:
+class ClientRepo:
     def __init__(self):
         self.client_list = []
 
