@@ -1,5 +1,5 @@
 from datetime import datetime
-from Model.client_repository import DBClientRepository #ClientRepository
+from Model.client_repository import ClientRepo
 from View.client_ui import ClientUI
 
 
@@ -95,7 +95,7 @@ class StoreController:
 
 if __name__ == '__main__':
     # client_repo = ClientRepository()
-    client_repo = DBClientRepository()
+    client_repo = ClientRepo()
     client_ui = ClientUI()
     client_ctrl = ClientController(client_ui, client_repo)
     client_ctrl.start()
