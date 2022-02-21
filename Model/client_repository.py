@@ -48,7 +48,7 @@ class ClientRepo:
 
 
 if __name__ == '__main__':
-    client_repo = ClientRepository()
+    client_repo = ClientRepo()
 
     client_repo.add_client(1, 'Dan', 'David', 24, 'test@gmail.com')
     client_repo.add_client(2, 'Pop', 'Andrei', 44, 'pop.andrei@gmail.com')
