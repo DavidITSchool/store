@@ -32,6 +32,7 @@ class DBProductRepository:
     def get_all_products(self):
         return self.session.query(Product).all()
 
+    # TODO(andrei): Add update and delete functions
 
 if __name__ == '__main__':
     repo = DBProductRepository()
